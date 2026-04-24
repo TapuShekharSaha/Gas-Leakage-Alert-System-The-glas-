@@ -1,49 +1,81 @@
-# Gas-Leakage-Alert-System-The-GLAS
+# Gas Leakage Alert System (GLAS)
 
-## Overview
-The Gas Leakage Alert System (GLAS) is an IoT-based safety system designed to detect LPG gas leakage in domestic and small-scale environments. The system continuously monitors gas concentration and provides immediate alerts when unsafe levels are detected.
+## Introduction
+The Gas Leakage Alert System (GLAS) is an IoT-based safety solution designed to detect LPG gas leakage in real time. It continuously monitors gas concentration in the surrounding environment and alerts users immediately when unsafe levels are detected.
 
-Upon detecting leakage, the system:
-- Activates an alarm (buzzer)
-- Sends a notification message to the user’s mobile device
+This system is particularly useful in homes, kitchens, and industrial environments where LPG is commonly used. By providing early warnings, it helps prevent accidents such as fire hazards, explosions, and health risks.
 
 ---
 
-## Objective
-- Detect LPG gas leakage in real time
-- Provide instant alerts to users
-- Prevent fire hazards and ensure safety
+## Problem Statement
+Gas leakage is a serious safety issue that can lead to dangerous incidents if not detected early. Traditional methods rely on human detection, which may not always be timely or reliable. Therefore, an automated system is required to monitor gas levels and provide instant alerts.
 
 ---
 
-## Features
-- Real-time gas detection
-- Automatic buzzer alert system
-- Mobile notification (SMS / IoT-based)
-- Low-cost and efficient design
-- Easy to deploy in homes and kitchens
+## Objectives
+- Detect LPG gas leakage in real time  
+- Alert users through an alarm system  
+- Send notifications to mobile devices  
+- Ensure safety and reduce potential hazards  
 
 ---
 
-## Components Used
-| Component        | Description                          |
-|-----------------|--------------------------------------|
-| MQ-2 / MQ-5     | Gas Sensor for LPG detection         |
-| Arduino/NodeMCU | Microcontroller                      |
-| Buzzer          | Alarm system                         |
-| GSM/Wi-Fi Module| For sending alerts                   |
-| Power Supply    | System power source                  |
+## Key Features
+- Continuous gas monitoring  
+- Instant buzzer alert  
+- Mobile notification system (SMS or IoT-based)  
+- Low-cost and efficient implementation  
+- Easy installation and maintenance  
+
+---
+
+## Technologies Used
+- Embedded Systems  
+- Internet of Things (IoT)  
+- Sensor Technology  
+
+---
+
+## Hardware Components
+| Component           | Description                          |
+|--------------------|--------------------------------------|
+| MQ-2 / MQ-5 Sensor | Detects LPG gas concentration        |
+| Microcontroller    | Arduino / NodeMCU                    |
+| Buzzer             | Provides audible alert               |
+| GSM/Wi-Fi Module   | Sends notifications                  |
+| Power Supply       | Provides system power                |
 
 ---
 
 ## Working Principle
-1. The gas sensor continuously monitors LPG concentration in the air.
-2. If the gas level exceeds a predefined threshold:
-   - The microcontroller processes the signal
-   - The buzzer is activated
-   - A message is sent to the user's mobile device
-3. The system continues monitoring until levels return to normal.
+1. The gas sensor continuously detects LPG concentration in the air.  
+2. The sensor sends data to the microcontroller.  
+3. If the gas level exceeds a predefined threshold:
+   - The buzzer is activated  
+   - A notification is sent to the user’s mobile device  
+4. The system keeps monitoring until the gas level returns to normal.
 
 ---
 
-## System Architecture
+
+---
+
+## Applications
+- Residential homes
+- Kitchens and restaurants
+- LPG storage areas
+- Industrial safety systems
+
+---
+
+## Future Enhancements
+- Automatic gas valve shut-off system
+- Mobile application integration
+- Cloud-based monitoring
+- AI-based leakage prediction
+
+---
+
+## Conclusion
+The GLAS project provides an efficient and reliable method for detecting LPG gas leaks and ensuring immediate alerts. It enhances safety and reduces the risk of accidents in everyday environments.
+
